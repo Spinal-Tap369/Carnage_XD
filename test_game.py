@@ -1,6 +1,7 @@
 import unittest
 import pygame
 from ship import Player, Enemy, Laser
+from menu import handle_events
 
 class TestGame(unittest.TestCase):
     def test_enemy_hit_by_player_laser(self):
@@ -29,6 +30,19 @@ class TestGame(unittest.TestCase):
         player = Player(400, 600)
         player.health = 0
         self.assertTrue(player.health <= 0)  # Assert player health is zero or negative
+
+    def test_music_turn_off(self):
+        # Test if the music turns off when "Music: OFF" button is clicked
+        WIN = pygame.display.set_mode((900, 700))  # Dummy window for testing
+        sound_button = pygame.Rect(800, 600, 100, 50)  # Dummy sound button
+        quit_button = pygame.Rect(800, 650, 100, 50)  # Dummy quit button
+        music_on = True  # Initially music is on
+        run = True  # Dummy run variable
+        event = pygame.event.Event(pygame.MOUSEBUTTONDOWN, pos=(850, 625), button=1)  # Simulate mouse click on sound button
+        pygame.event.post(event)  # Post the event
+        run = handle_events(run, WIN, sound_button, quit_button)  # Handle the event
+        music_on = not music_on  # Toggle music state
+        self.assertFalse(music_on)  # Assert music is turned off
 
 if __name__ == '__main__':
     unittest.main()
