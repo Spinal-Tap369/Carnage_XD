@@ -1,8 +1,17 @@
 # ship.py
 
 import pygame
-from constants import *
-
+from Carnage_in_Hell import constants 
+HEIGHT=constants.HEIGHT
+LASER_SOUND=constants.LASER_SOUND
+RED_SPACE_SHIP=constants.RED_SPACE_SHIP
+RED_LASER=constants.RED_LASER
+GREEN_SPACE_SHIP=constants.GREEN_SPACE_SHIP
+GREEN_LASER=constants.GREEN_LASER
+BLUE_SPACE_SHIP=constants.BLUE_SPACE_SHIP
+BLUE_LASER=constants.BLUE_LASER
+YELLOW_SPACE_SHIP=constants.YELLOW_SPACE_SHIP
+YELLOW_LASER=constants.YELLOW_LASER
 class Laser:
     def __init__(self, x, y, img):
         self.x = x
@@ -48,6 +57,7 @@ class Ship:
             elif laser.collision(obj):
                 obj.health -= 10
                 self.lasers.remove(laser)
+                HIT_SOUND=constants.HIT_SOUND
                 HIT_SOUND.play()
 
     def cooldown(self):
@@ -90,6 +100,7 @@ class Player(Ship):
                         objs.remove(obj)
                         if laser in self.lasers:
                             self.lasers.remove(laser)
+                            HIT_SOUND=constants.HIT_SOUND
                             HIT_SOUND.play()
                             self.score += 1
 
@@ -103,6 +114,7 @@ class Player(Ship):
 
 class Enemy(Ship):
     COLOR_MAP = {
+
         "red": (RED_SPACE_SHIP, RED_LASER),
         "green": (GREEN_SPACE_SHIP, GREEN_LASER),
         "blue": (BLUE_SPACE_SHIP, BLUE_LASER)
