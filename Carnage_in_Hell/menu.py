@@ -1,7 +1,5 @@
-# menu.py
-
 import pygame
-from Carnage_in_Hell import game
+from Carnage_in_Hell.game import main  # Updated import statement
 import sys
 
 def main_menu(WIN):
@@ -51,7 +49,7 @@ def handle_events(run, WIN, start_button, quit_button):
             sys.exit()
         if event.type == pygame.MOUSEBUTTONDOWN:
             if start_button.collidepoint(event.pos):
-                game.main(WIN)
+                main(WIN)  # Call main function directly
                 return True
             elif quit_button.collidepoint(event.pos):
                 return False
