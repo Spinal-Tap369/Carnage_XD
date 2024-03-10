@@ -1,7 +1,7 @@
 # menu.py
 
 import pygame
-import game
+from Carnage_in_Hell import game
 import sys
 
 def main_menu(WIN):
