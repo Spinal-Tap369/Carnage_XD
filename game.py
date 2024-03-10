@@ -2,9 +2,11 @@
 import pygame
 import os
 import random
-from constants import *
-from ship import Player, Enemy, Laser, collide
-
+from Carnage_in_Hell import constants
+from Carnage_in_Hell.ship import Player, Enemy, Laser, collide
+WIDTH=constants.WIDTH
+HEIGHT=constants.HEIGHT
+BG=constants.BG
 def main(WIN):
     run = True
     FPS = 60
