@@ -4,6 +4,7 @@ import os
 import random
 from Carnage_in_Hell import constants
 from Carnage_in_Hell.ship import Player, Enemy, Laser, collide
+
 WIDTH=constants.WIDTH
 HEIGHT=constants.HEIGHT
 BG=constants.BG
