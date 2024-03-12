@@ -5,8 +5,8 @@ setup(
     version="1.0.0",
     description="A simple Space Shooter game",
     long_description="same",
-    author="Arnold Joseph",
-    author_email="arnoldjoseph13@gmail.com",
+    author=["Arnold Joseph","Samuel Verghese","Karan Zaveri","Harsheta Murthy"]
+    author_email=["arnold.joseph@stud.srh-campus-berlin.de","samuel.malayilverghese@stud.srh-campus-berlin.de","karan.zaveri@stud.srh-campus-berlin.de","harshethamurthy.keshavmurthy@stud.srh-campus-berlin.de"]
     packages=find_packages(),  # Automatically find all packages
     install_requires=['pygame'],  # Use a list for install_requires
     url="https://github.com/Spinal-Tap369/Carnage_XD",
