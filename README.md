@@ -16,5 +16,6 @@ python
 >>> pygame.init()
 >>> main(WIN=pygame.display.set_mode((900,700))
 ```
+##### ***NOTE: The build is bugged as it doesn't display main menu. Please also try the game by running main.py .  
 ### Requirements
 ##### Ensure you have Python installed on your system.
