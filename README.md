@@ -23,9 +23,9 @@ python
 ### References 
 
 
-[Space Shooter game using Pygame | Complete Step by Step Tutorial for Beginners](https://youtu.be/-FoziIlV7N0?si=hiQnxZTcOBfkHJMx)
-[Building Space Invaders using pygame - geeksforgeeks.org](https://www.geeksforgeeks.org/building-space-invaders-using-pygame-python/)
-[Pygame tutorial - Creating Space Invaders](https://youtu.be/Q-__8Xw9KTM?si=dgw5tMBnSG7vGFjq)
+[Space Shooter game using Pygame | Complete Step by Step Tutorial for Beginners](https://youtu.be/-FoziIlV7N0?si=hiQnxZTcOBfkHJMx)<br>
+[Building Space Invaders using pygame - geeksforgeeks.org](https://www.geeksforgeeks.org/building-space-invaders-using-pygame-python/)<br>
+[Pygame tutorial - Creating Space Invaders](https://youtu.be/Q-__8Xw9KTM?si=dgw5tMBnSG7vGFjq)<br>
 
 
 ### Assets Sources 
