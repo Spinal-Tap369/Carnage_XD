@@ -24,18 +24,21 @@ python
 
 
 [Space Shooter game using Pygame | Complete Step by Step Tutorial for Beginners](https://youtu.be/-FoziIlV7N0?si=hiQnxZTcOBfkHJMx)
-
+[Building Space Invaders using pygame - geeksforgeeks.org](https://www.geeksforgeeks.org/building-space-invaders-using-pygame-python/)
 [Pygame tutorial - Creating Space Invaders](https://youtu.be/Q-__8Xw9KTM?si=dgw5tMBnSG7vGFjq)
 
 
 ### Assets Sources 
 
-#### Player and Enemy Sprites -
+#### Player and Enemy Sprites - 
+[Open Source Game Art](https://opengameart.org)
 
 #### Background image - 
+[Free License Image](https://www.freepik.com/free-photo/fire-cloud-space-background_893249.htm#fromView=search&page=1&position=44&uuid=e38d006c-ec24-4b4d-94e2-09dcc098301a)
 
-#### Background music -
+#### Background music - 
+[Space - Music Unlimited (Music Unlimited's channel provides no copyright background music.](https://pixabay.com/music/search/space/)
 
-#### Sound Effects - 
-
-####
+#### Sound Effects -
+[Dowloaded from :](https://www.findsounds.com/ISAPI/search.dll?keywords=laser)
+[sound file](http://d-gun.com/files/sounds/LASRLIT3.WAV)
