@@ -1,12 +1,11 @@
 # Carnage in Hell
 ##### Carnage in Hell is a simple space shooter game developed using Pygame.
-author=["Arnold Joseph","Samuel Verghese","Karan Zaveri","Harsheta Murthy"]
-    author_email=["arnold.joseph@stud.srh-campus-berlin.de","samuel.malayilverghese@stud.srh-campus-berlin.de","karan.zaveri@stud.srh-campus-berlin.de","harshethamurthy.keshavmurthy@stud.srh-campus-berlin.de"]
+
 ### Team Members: 
-#### Arnold Joseph : 3120369
-#### Samuel Malayil Verghese : 3120522
-#### Karan Zaveri : 3121037
-#### Harshetha Murthy : 3121278
+#### Arnold Joseph : 3120369 : arnold.joseph@stud.srh-campus-berlin.de
+#### Samuel Malayil Verghese : 3120522 : samuel.malayilverghese@stud.srh-campus-berlin.de
+#### Karan Zaveri : 3121037 : karan.zaveri@stud.srh-campus-berlin.de
+#### Harshetha Murthy : 3121278 : harshethamurthy.keshavmurthy@stud.srh-campus-berlin.de
 
 ### Installation
 #### Clone the Repository
